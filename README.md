@@ -33,10 +33,11 @@ cd C:\Users\User\Desktop\MINT
    https://f-droid.org/id/packages/com.termux/
    ```
 2. Open Termux and run the command "pkg update && pkg upgrade."
-3. After it's done, install NodeJS and Git.
+3. After it's done, install NodeJS, Wget and Nano
    ```
    pkg install nodejs
    pkg install wget
+   pkg install nano
    ```
 4. Run the command:
    ```
@@ -88,11 +89,15 @@ SKIP Bagian ini jika pake Android karena akan dijelaskan di bawah.
    ```
    https://f-droid.org/id/packages/com.termux/
    ```
-2. Buka Termux lalu jalankan perintah "pkg update && pkg upgrade"
-3. Setelah selesai lalu instal NodeJS dan Git
+2. Buka Termux lalu jalankan perintah
+   ```
+   pkg update && pkg upgrade
+   ```
+3. Setelah selesai lalu instal NodeJS, Wget dan Nano
    ```
    pkg install nodejs
    pkg install wget
+   pkg install nano
    ```
 4. Jalankan perintah
    ```
@@ -102,17 +107,17 @@ SKIP Bagian ini jika pake Android karena akan dijelaskan di bawah.
    ```
    npm install web3
    ```
-7. Jalankan perintah
+6. Jalankan perintah
    ```
    npm init
    ```
-8. Buka file mint.js
+7. Buka file mint.js
    ```
    nano mint.js
    ```
-9. Ubah YOUR_PRIVATE_KEY dan YOUR_ADDRESS sesuai dengan milikmu.
-10. Jika sudah maka Save dengan klik tombol Ctrl + X lalu Y dan terakhir Enter.
-11. Terakhir, jalankan perintah
+8.. Ubah YOUR_PRIVATE_KEY dan YOUR_ADDRESS sesuai dengan milikmu.
+9.. Jika sudah maka Save dengan klik tombol Ctrl + X lalu Y dan terakhir Enter.
+10. Terakhir, jalankan perintah
     ```
     node mint.js
     ```
